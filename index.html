@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    <title>Biblioteca Central | DGB-Secretaría de Cultura | gob.mx</title>    
+    -->
+    <title>Estadística RNBP</title>
+    <link rel="icon" type="image/png" href="images/favicon_DGB_.png">
+    
+    <!--
+    <link rel="stylesheet" href="styles/.css">
+    -->
+
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/tabla.css">
+    <!-- <link rel="stylesheet" type="text/css" href="styles/stylesCentral.css">    -->
+    <!-- <link rel="stylesheet" type="text/css" href="styles/menu.css"> --
+    <!-- <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> -->
+    <!-- <script src="js/suma_2.js"></script> -->
+</head>
+
+<body>
+
+        <div class="container-gob-gradient">
+            <nav class="nav-gob">
+                <!-- <a title="Secretaría de Cultura" href="https://cultura.gob.mx" target="_blank"><img class="logo-sc" src="images/SC_horizontal.svg" alt="Secretaría de Cultura"></a> -->
+                <a title="Gobierno de México" href="https://www.gob.mx" target="_blank"><img class="logo-gob" src="images/logo-gob.svg" alt="Gobierno de México"></a>
+                <!-- <a href="https://www.gob.mx" target="_blank">
+                    <img class="logo-gob" src="images/logo-gob.svg" alt="Gobierno de México">
+                </a> -->
+                <ul>
+                    <li><a href="https://coronavirus.gob.mx/" target="blank">Información importante Coronavirus COVID-19</a></li>
+                    <li><a href="https://www.gob.mx/tramites/comunicaciones" target="blank">Trámite</a></li>
+                    <li><a href="#">Gobierno</a></li>
+                    <li><a href="https://www.gob.mx/busqueda?utf8=✓" target="_blank"><img class="lupa" alt="Buscar" src="images/lupa.svg"></a></li>
+                </ul>
+            </nav>
+        </div>
+ 
+    </header>
+
+    <main>
+        <div class="statistics-form">
+            <div>
+                <p>NOMBRES-FILAS</p>
+            </div>
+            <div>
+                <p>ENCABEZADO-1</p>
+            </div> 
+            <div>
+                <p>ENCABEZADO-2</p>
+            </div>
+            <div>
+                <p>ENCABEZADO-3</p>
+            </div> 
+            <div>
+                <p>ENCABEZADO-4</p>
+            </div> 
+            <div>
+                <p>ENCABEZADO-TOTALES-H</p>
+            </div>
+            <div>
+                <p> Niños menores de <b> 12 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorNinosColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorNinosColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-1" placeholder="TOTALH-1" maxlength="6" id="totalNinos">
+            </div>
+            <div>
+                <p> Adolescentes de <b> 13 a 17 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdolescentesColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdolescentesColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-2" placeholder="TOTALH-2" maxlength="6" id="totalAdolescentes">
+            </div>
+            <div>
+                <p> Adultos jóvenes entre<b> 18 y  29 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdultosJovenesColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdultosJovenesColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-3" placeholder="TOTALH-3" maxlength="6" id="totalAdultosJovenes">
+            </div>
+            <div>
+                <p> Adultos entre<b> 30 y 59 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdultosColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdultosColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-4" placeholder="TOTALH-4" maxlength="6" id="totalAdultos">
+            </div>
+            <div>
+                <p> Adultos mayores de <b> 60 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdultosMayoresColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdultosMayoresColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-5" placeholder="TOTALH-5" maxlength="6" id="totalAdultosMayores">
+            </div>
+            <div>
+                <p>ENCABEZADO-TOTALES-V</p>
+            </div>
+            <div>
+                <input type="text" name="TOTALV-1" placeholder="TOTALV-1" maxlength="6" id="">    
+            </div>
+            <div>
+                <input type="text" name="TOTALV-2" placeholder="TOTALV-2" maxlength="6">    
+            </div>
+            <div>
+                <input type="text" name="TOTALV-3" placeholder="TOTALV-3" maxlength="6" id="">    
+            </div>
+            <div>
+                <input type="text" name="TOTALV-4" placeholder="TOTALV-4" maxlength="6">    
+            </div>
+            <div>
+                <input type="text" name="TOTALES" placeholder="TOTALES" maxlength="7" id="">
+            </div>
+            <div>
+                <button type="submit">SIGUIENTE</button>
+            </div>
+        </div>
+        <div class="statistics-form">
+            <div>
+                <p>NOMBRES-FILAS</p>
+            </div>
+            <div>
+                <p>ENCABEZADO-1</p>
+            </div> 
+            <div>
+                <p>ENCABEZADO-2</p>
+            </div>
+            <div>
+                <p>ENCABEZADO-3</p>
+            </div> 
+            <div>
+                <p>ENCABEZADO-4</p>
+            </div> 
+            <div>
+                <p>ENCABEZADO-TOTALES-H</p>
+            </div>
+            <div>
+                <p> Niños menores de <b> 12 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorNinosColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorNinosColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-1" placeholder="TOTALH-1" maxlength="6" id="totalNinos">
+            </div>
+            <div>
+                <p> Adolescentes de <b> 13 a 17 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdolescentesColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdolescentesColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-2" placeholder="TOTALH-2" maxlength="6" id="totalAdolescentes">
+            </div>
+            <div>
+                <p> Adultos jóvenes entre<b> 18 y  29 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdultosJovenesColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdultosJovenesColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-3" placeholder="TOTALH-3" maxlength="6" id="totalAdultosJovenes">
+            </div>
+            <div>
+                <p> Adultos entre<b> 30 y 59 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdultosColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdultosColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-4" placeholder="TOTALH-4" maxlength="6" id="totalAdultos">
+            </div>
+            <div>
+                <p> Adultos mayores de <b> 60 años </b> </p>
+            </div> 
+            <div>
+                <input type="text" name="columna-1" placeholder="columna-1" maxlength="6" id="valorAdultosMayoresColumna1">
+            </div>
+            <div>
+                <input type="text" name="columna-2" placeholder="columna-2" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="columna-3" placeholder="columna-3" maxlength="6" id="valorAdultosMayoresColumna3">
+            </div>
+            <div>
+                <input type="text" name="columna-4" placeholder="columna-4" maxlength="6">
+            </div> 
+            <div>
+                <input type="text" name="TOTALH-5" placeholder="TOTALH-5" maxlength="6" id="totalAdultosMayores">
+            </div>
+            <div>
+                <p>ENCABEZADO-TOTALES-V</p>
+            </div>
+            <div>
+                <input type="text" name="TOTALV-1" placeholder="TOTALV-1" maxlength="6" id="">    
+            </div>
+            <div>
+                <input type="text" name="TOTALV-2" placeholder="TOTALV-2" maxlength="6">    
+            </div>
+            <div>
+                <input type="text" name="TOTALV-3" placeholder="TOTALV-3" maxlength="6" id="">    
+            </div>
+            <div>
+                <input type="text" name="TOTALV-4" placeholder="TOTALV-4" maxlength="6">    
+            </div>
+            <div>
+                <input type="text" name="TOTALES" placeholder="TOTALES" maxlength="7" id="">
+            </div>
+            <div>
+                <button type="submit">SIGUIENTE</button>
+            </div>
+        </div> 
+    </main>
+
+    <footer>    
+        <!-- <a title="Bibliotutorías" href="https://www.youtube.com/watch?v=3AVEyxLo_Do&list=PLEGvOENttf_Ex2Xt54YSISWmQnbKSrY1I&index=42" target="_blank"><img class="img-banner" src="images/footer_EBSCO.png" alt=""></a> -->
+        <!-- <a href="https://www.youtube.com/watch?v=3AVEyxLo_Do&list=PLEGvOENttf_Ex2Xt54YSISWmQnbKSrY1I&index=42" target="popup" onclick="window.open(this.href, this.target, 'location=no,width=1024,height=800,resizable=yes,scrollbars=yes' ); return false;"> <img class="img-banner" src="images/footer_EBSCO.png" alt=""></a> -->
+        <img class="img-banner" src="images/footer.png" alt="">
+        <!-- <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script> -->
+    </footer>
+    <script src="js/sumatoria.js"></script>
+    <script src="js/suma_vertical.js"></script>
+</body>
+</html>
